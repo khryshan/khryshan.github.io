@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Match-Match Game</title>
+
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<header>
+			<h1 class="main-header">Match Match Game</h1>
+		</header>
+
+		<main>
+		
+<!-- ================================INTRO-BLOCK============================== -->
+
+			<div class="intro-block">
+
+				<div class="intro-block-container">
+					<section class="rules">
+						<h2 class="rules-title">Rules</h2>
+						<p >Click on a card to reveal the image on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
+						<p>You win when all pairs have been found.</p>
+					</section>
+
+
+					<section class="game-setting">
+						<h2 class="title">Choose card back:</h2>
+
+						<form class="card-back-form" action="">
+							<label>
+								<input type="radio" name="card-back" id="card-back-first" value="moon">
+								<div class="card-back"><img src="images/moon.png" alt="moon"></div>
+							</label>
+							<label>
+								<input type="radio" name="card-back" id="card-back-second" value="star">
+								<div class="card-back"><img src="images/star.png" alt="star"></div>
+							</label>
+							<label>
+								<input type="radio" name="card-back" id="card-back-third" value="space-man" checked>
+								<div class="card-back"><img src="images/space-man.png" alt="space-man"></div>
+							</label>
+							<label>
+								<input type="radio" name="card-back" id="card-back-fourth" value="rocket">
+								<div class="card-back"><img src="images/rocket.png" alt="rocket"></div>
+							</label>
+							<label>
+								<input type="radio" name="card-back" id="card-back-fifth" value="galaxy">
+								<div class="card-back"><img src="images/galaxy.png" alt="galaxy"></div>
+							</label>
+						</form>
+
+						<h2 class="title">Difficulty level:</h2>
+						<form class="level-form" action="">
+							<label>
+								<input type="radio" name="level" id="level-easy" value="8">
+								<span>2&#215;4</span>
+							</label>
+							<label>
+								<input type="radio" name="level" id="level-medium" value="12" checked>
+								<span>3&#215;4</span>
+							</label>
+							<label>
+								<input type="radio" name="level" id="level-hard" value="16">
+								<span>4&#215;4</span>
+							</label>
+						</form>
+					</section>
+
+					<div class="btn-new-game">
+						<button class="btn start-btn">New Game</button>
+					</div>
+				</div>
+
+			</div>
+
+<!-- ================================GAME-BLOCK=============================== -->
+
+			<div class="game-block">
+
+				<div class="game-block-container">
+
+					<section class="game-control">
+
+						<div class="timer">
+							<span>Timer:</span>
+							<span class="timer-value"></span>
+						</div>
+
+						<button class="btn menu-btn">Menu</button>
+
+					</section>
+
+					<section class="game-field"></section>
+					
+				</div>
+
+			</div>
+
+
+<!-- ================================GAME-OVER-BLOCK=============================== -->
+
+			<div class="game-over-block">
+
+				<div class="game-over-block-container">
+					
+					<h2 class="game-over-title">Win Win Win!</h2>
+
+					<span>Great job!</span>
+
+					<img class="win-img" src="images/astronaut.png" alt="astronaut" width="250px" height="280px">
+
+					<button class="btn new-game-btn">New Game</button>
+
+				</div>
+
+			</div>
+
+
+			
+			
+
+		</main>
+
+	</div>
+
+	<script src="js/script.js"></script>
+	
+</body>
+</html>
