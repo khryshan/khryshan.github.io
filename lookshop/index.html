@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/table-style.css">
+	<link rel="stylesheet" href="css/desktop-style.css">
+
+	<title>lookshop</title>
+</head>
+<body>
+
+	<div class="wrapper">
+
+	<header class="page-header">
+		
+		<div class="page-header__top">
+
+			<div class="page-header__top-container">
+				<div class="user-block__info">custom care: 123 456 789</div>
+				<div class="page-header__user-block">
+					<div class="user-block__currency">
+						<select name="select">
+  						<option value="value1">&#8377; rub</option> 
+  						<option value="value2" selected>&#36; us</option>
+  						<option value="value3">&euro; eur</option>
+						</select>
+					</div>
+					<div class="user-block__account">
+						<i class="fa fa-user" aria-hidden="true"></i>
+						<span>my account</span>
+					</div>
+					<div class="user-block__search">
+						<div class="search__wrap">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="page-header__main">
+
+			<div class="page-header__main-container">
+				<div class="page-header__logo">
+					<span>l</span>
+					<svg class="logo-elem-mobile" width="104" height="50">
+  					<circle cx="50" cy="50" r="40" stroke="#ffa687" stroke-width="6" fill="none" />
+  					<rect x="0" y="25" width="105" height="25" fill="#ffffff" />
+  					<circle cx="25" cy="25" r="25" fill="#ffa687" />
+  					<circle cx="79" cy="25" r="25" fill="#ffa687" />
+					</svg>
+					<svg class="logo-elem-desktop" width="34" height="16">
+  					<circle cx="17" cy="16" r="14" stroke="#ffa687" stroke-width="2" fill="none" />
+  					<rect x="0" y="8" width="34" height="8" fill="#ffffff" />
+  					<circle cx="8" cy="8" r="8" fill="#ffa687" />
+  					<circle cx="26" cy="8" r="8" fill="#ffa687" />
+					</svg>
+					<span>kshop</span>
+				</div>
+
+				<div class="page-header__cart">
+
+					<input class="cart-form cart__select" type="text" list="select-list" placeholder="Your cart">
+						<datalist id="select-list">
+  						<option value="cart#1"></option>
+  						<option value="cart#2"></option>
+ 						</datalist>
+					
+					<div class="cart-form cart__info">
+						<div class="cart-icon"></div>
+							<div class="cart__values">
+								<div class="cart__items-total">
+									<span>0</span>
+									items
+								</div>
+								<div class="cart__amount">
+									&#36; 
+									<span>0</span>
+								</div>
+							</div>
+					</div>
+
+				</div>
+			
+				<nav class="page-header__main-menu">
+					<div class="main-menu__inner">
+						<span class="main-menu__title">Menu</span>
+						<button class="main-menu__toggle toggle" type="button" title="toggle">
+          		<span></span>
+        		</button>
+        	</div>
+					<ul class="main-menu__list">
+						<li class="main-menu__item">new</li>
+						<li class="main-menu__item">designers</li>
+						<li class="main-menu__item">women</li>
+						<li class="main-menu__item">men</li>
+						<li class="main-menu__item">clearence</li>
+					</ul>	
+				</nav>
+			</div>
+		
+		</div>
+
+	</header>
+
+
+
+	<main class="page-content">
+		
+		<div class="page-content__inner">
+
+			<section class="page-header__slider">
+
+				<div class="slider__inner">
+					<div class="slider__control">
+						<span class="control__arrow control__arrow--left">&lang;</span>
+						<span class="control__arrow control__arrow--right">&rang;</span>
+					</div>
+					
+					<div class="slider__label-wrap">
+						<div class="slider__label">
+							<span class="label__top">Crazy</span>
+							<h2 class="label__title">
+								<span>Crazy</span>
+								<span>Summer</span>
+							</h2>
+							<span class="label__bottom">Woman Collection</span>
+							<button class="btn shop-btn" type="button" title="shop-btn">shop now</button>
+						</div>
+					</div>
+
+				</div>	
+				
+				<ul class="slider__indicators">
+					<li class="indicator"></li>
+					<li class="indicator indicator--active"></li>
+					<li class="indicator"></li>
+					<li class="indicator"></li>
+					<li class="indicator"></li>
+				</ul>
+			</section>
+
+
+			<section class="page-content__contact">
+				
+				<div class="page-content__contact-container">
+					<div class="contact__inner">
+						<div class="contact__email-block">
+							<span>Stay updated</span>
+							<div class="subcribe-form">
+								<input class="adress-area" type="text" id="subscribe" name="subscribe" placeholder="Your email address">
+								 <button class="subscribe-btn" type="button" title="subscribe-btn"></button>
+							</div>
+						</div>
+						<div class="contact__social-block">
+							<span>Find us here</span>
+							<ul class="social-block__social-list">
+								<li>
+									<a href="#" class="social-item" title="facebook">
+										<div class="fb-item"></div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="social-item" title="twitter">
+										<div class="tw-item"></div>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="social-item" title="pinterest">
+										<div class="pint-item"></div>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+
+			<section class="page-content__poster">
+
+				<div class="poster__side-left">
+					<div class="poster__label">
+						<span>best</span>
+						<span>outfits</span>
+						<span>&#38</span>
+						<span>look</span>
+					</div>
+				</div>
+
+				<div class="poster__side-right">
+
+					<div class="poster__tile b-tile">
+						<div class="b-tile__overlay">
+							<div class="tile-badge">
+								<div class="tile-bage__inner">
+									<span>Summer</span>
+									<span>party</span>
+									<span>collection</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="poster__tile s-tile">
+						<a class="title-transition" href="#">
+								<div class="title-transition__wrapper">
+									best sellers
+								<span class="title-arrow"></span>
+							</div>
+						</a>
+					</div>
+
+					<div class="poster__tile s-tile">
+						<div class="s-tile-wrapper">
+							<h3><span>fall</span> <span>leather</span></h3>
+							<button class="btn shop-btn" type="button" title="shop-btn">shop now</button>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			
+
+			<section class="page-content__catalog">
+				<div class="catalog__section">
+					<div class="catalog__top">
+						<select class="section__select" name="select">
+							<option value="value1" selected>what’s hot?</option> 
+	  					<option value="value2">designers</option>
+	  					<option value="value3">featured</option>
+	  					<option value="value4">latest</option>
+						</select>
+
+						<ul class="section__list">
+							<li class="section__item section__item--active">what’s hot?</li>
+							<li class="section__item">designers</li>
+							<li class="section__item">featured</li>
+							<li class="section__item">latest</li>
+						</ul>
+
+						<div class="section__toggle">
+							<div class="toggle-btn toggle-left toggle--no-active">&lang;</div>
+							<div class="toggle-btn toggle-right">&rang;</div>
+						</div>
+					</div>
+
+					<div class="catalog__product">
+						<div class="product__inner">
+							<div class="products">
+
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="mimosa-dress">
+										<img src="img/mimosa-dress.jpg" alt="mimosa-dress" width="140" height="365">
+									</a>
+									<span class="item__title">Mimosa lace dress</span>
+									<span class="item__price">&#36; 76.95</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+				
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="wish-vitalise-dress">
+										<img src="img/wish-vitalise-dress.jpg" alt="wish-vitalise-dress" width="183" height="365">
+									</a>
+									<span class="item__title">Wishvitalise dress</span>
+									<span class="item__price">&#36; 96.55</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="mimosa-dress">
+										<img src="img/mimosa-dress.jpg" alt="mimosa-dress" width="140" height="365">
+									</a>
+									<span class="item__title">Mimosa lace dress</span>
+									<span class="item__price">&#36; 76.95</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+				
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="wish-vitalise-dress">
+										<img src="img/wish-vitalise-dress.jpg" alt="wish-vitalise-dress" width="183" height="365">
+									</a>
+									<span class="item__title">Wishvitalise dress</span>
+									<span class="item__price">&#36; 96.55</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="mimosa-dress">
+										<img src="img/mimosa-dress.jpg" alt="mimosa-dress" width="140" height="365">
+									</a>
+									<span class="item__title">Mimosa lace dress</span>
+									<span class="item__price">&#36; 76.95</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+				
+								<div class="product__item">
+									<div class="item__about">
+										<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+										<span>shope it</span>
+									</div>
+									<a href="#" class="item__img" title="wish-vitalise-dress">
+										<img src="img/wish-vitalise-dress.jpg" alt="wish-vitalise-dress" width="183" height="365">
+									</a>
+									<span class="item__title">Wishvitalise dress</span>
+									<span class="item__price">&#36; 96.55</span>
+									<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+								</div>
+
+							</div>
+
+							<button class="btn load-btn" type="button" title="load-btn">load more</button>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="page-content__clearence">
+
+				<div class="clearence__title">
+					<div class="clearence__badge">
+						<div class="badge">
+							<div class="badge__inner">
+								<span>Clearence</span>
+								<div class="clearence__rate">
+									<span class="rate">50</span>
+									<div class="rate-unit">
+										<span>&#37;</span>
+										<span>off</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="product__inner">
+					<div class="products products-clearence">
+
+						<div class="product__item">
+							<div class="item__about">
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<span>shope it</span>
+							</div>
+							<a href="#" class="item__img" title="orange-bag">
+								<img src="img/orange-bag.jpg" alt="orange-bag" width="215" height="275">
+							</a>
+							<span class="item__title">Atmos&amp;Here Shopper</span>
+							<span class="item__price">&#36; 49.95</span>
+							<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+						</div>
+
+						<div class="product__item">
+							<div class="item__about">
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<span>shope it</span>
+							</div>
+							<a href="#" class="item__img" title="black-bag">
+								<img src="img/black-bag.jpg" alt="black-bag" width="215" height="275">
+							</a>
+							<span class="item__title">Wishvitalise dress</span>
+							<span class="item__price">&#36; 96.55</span>
+							<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+						</div>
+
+						<div class="product__item">
+							<div class="item__about">
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<span>shope it</span>
+							</div>
+							<a href="#" class="item__img" title="orange-bag">
+								<img src="img/orange-bag.jpg" alt="orange-bag" width="215" height="275">
+							</a>
+							<span class="item__title">Atmos&amp;Here Shopper</span>
+							<span class="item__price">&#36; 49.95</span>
+							<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+						</div>
+							
+						<div class="product__item">
+							<div class="item__about">
+								<i class="fa fa-shopping-bag" aria-hidden="true"></i>
+								<span>shope it</span>
+							</div>
+							<a href="#" class="item__img" title="black-bag">
+								<img src="img/black-bag.jpg" alt="black-bag" width="215" height="275">
+							</a>
+							<span class="item__title">Wishvitalise dress</span>
+							<span class="item__price">&#36; 96.55</span>
+							<button class="btn add-btn" type="button" title="add-btn">add to cart</button>
+						</div>
+					
+					</div>
+
+					<button class="btn load-btn" type="button" title="load-btn">load more</button>
+
+				</div>
+			</section>
+
+
+			<section class="page-content__brands">
+				<div class="brands__inner">
+					<h2 class="brands__title">favourite brands</h2>
+					<ul class="brands__list">
+						<li class="brands__element">
+							<a class="addict" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="ship" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="adidas" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="boy" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="converse" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="ck" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="edwin" href="#"></a>
+						</li>
+						<li class="brands__element">
+							<a class="grenson" href="#"></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+
+			<section class="page-content__about-us">
+				<div class="about-us__inner">
+					<h2 class="about-us__title">About LookShop</h2>
+					<p class="about-us__text">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.
+					</p>
+				</div>
+				<div class="about-us__payment">
+					<div class="about-us__payment-container">
+						<span>We accept</span>
+						<ul class="payment-cards">
+							<li class="payment-cards__element visa"></li>
+							<li class="payment-cards__element mc"></li>
+							<li class="payment-cards__element pp"></li>
+							<li class="payment-cards__element ae"></li>
+							<li class="payment-cards__element ve"></li>
+							<li class="payment-cards__element lafer"></li>
+							<li class="payment-cards__element maestro"></li>
+							<li class="payment-cards__element delta"></li>
+							<li class="payment-cards__element solo"></li>
+							<li class="payment-cards__element ideal"></li>
+							<li class="payment-cards__element dk"></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="page-content__content-footer">
+				<div class="content-footer__inner">
+
+					<div class="content-footer__navigation">
+						<div>
+							<h3 class="navigation__title">Customer Service</h3>
+							<ul class="navigation__list">
+								<li class="navigation__item"><a href="#">Contact</a></li>
+								<li class="navigation__item"><a href="#">FAQ</a></li>
+								<li class="navigation__item"><a href="#">Terms of payment</a></li>
+								<li class="navigation__item"><a href="#">Terms of sale</a></li>
+								<li class="navigation__item"><a href="#">Delivery terms and conditions</a></li>
+								<li class="navigation__item"><a href="#">Returns and Refunds</a></li>
+							</ul>
+						</div>
+						<div>
+							<h3 class="navigation__title">Information</h3>
+							<ul class="navigation__list">
+								<li class="navigation__item"><a href="#">Affiliate</a></li>
+								<li class="navigation__item"><a href="#">Cookies</a></li>
+								<li class="navigation__item"><a href="#">How to Shop</a></li>
+								<li class="navigation__item"><a href="#">About Nelly</a></li>
+								<li class="navigation__item"><a href="#">Investor relations</a></li>
+							</ul>
+						</div>
+						<div>
+							<h3 class="navigation__title">Campaigns</h3>
+							<ul class="navigation__list">
+								<li class="navigation__item"><a href="#">Evening dresses</a></li>
+								<li class="navigation__item"><a href="#">Makeup</a></li>
+								<li class="navigation__item"><a href="#">Fashion forward</a></li>
+								<li class="navigation__item"><a href="#">Training clothes</a></li>
+								<li class="navigation__item"><a href="#">Special Occasion Dresses</a></li>
+							</ul>
+						</div>
+						<div>
+							<h3 class="navigation__title">Stores</h3>
+							<ul class="navigation__list">
+								<li class="navigation__item"><a href="#">Paris</a></li>
+								<li class="navigation__item"><a href="#">New York</a></li>
+								<li class="navigation__item"><a href="#">London</a></li>
+								<li class="navigation__item"><a href="#">Madrid</a></li>
+								<li class="navigation__item"><a href="#">Tokio</a></li>
+							</ul>
+						</div>
+						
+					</div>
+
+					<div class="content-footer__social-footer">
+						<h3 class="social-footer__title">Social</h3>
+						<ul class="social-footer__list">
+							<li class="social-footer__item tw"><a href="#"></a></li>
+							<li class="social-footer__item pint"><a href="#"></a></li>
+							<li class="social-footer__item fb"><a href="#"></a></li>
+							<li class="social-footer__item gl"><a href="#"></a></li>
+							<li class="social-footer__item tumbrl"><a href="#"></a></li>
+							<li class="social-footer__item vimeo"><a href="#"></a></li>
+						</ul>
+					</div>
+
+					<div class="content-footer__badge">
+						<img src="img/shape-badge-footer.png" alt="badge" width="110" height="110">
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+	</main>
+
+
+
+	<footer class="page-footer">
+
+		<div class="page-footer__inner">
+
+			<div class="page-footer__menu">
+				<button class="menu__toggle toggle" type="button" title="toggle">
+          <span></span>
+        </button>
+				<ul class="menu__list">
+					<li class="menu__item"><a href="#">Privacy &amp; Cookies</a></li>
+					<li class="menu__item"><a href="#">Terms &amp; Conditions</a></li>
+					<li class="menu__item"><a href="#">Accessibility</a></li>
+					<li class="menu__item"><a href="#">Store Directory</a></li>
+					<li class="menu__item"><a href="#">About Us</a></li>
+					
+				</ul>
+			</div>
+
+			<div class="page-footer__copyright">
+				<span>&copy; LookShop.com</span>
+				<span>All Rights Reserved</span>
+			</div>
+
+		</div>
+
+	</footer>
+	
+	</div>
+</body>
+</html>

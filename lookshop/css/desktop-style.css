@@ -1,0 +1,79 @@
+@media screen and (min-width: 1200px) {
+	
+	.page-header__top-container,
+	.page-header__main-container,
+	.slider__label-wrap,
+	.page-content__contact-container,
+	.page-content__poster,
+	.catalog__top,
+	.page-content__clearence,
+	.brands__list,
+	.about-us__inner,
+	.about-us__payment-container,
+	.content-footer__inner,
+	.page-footer__inner {
+		max-width: 1200px;
+	}
+
+	.main-menu__inner {
+		display: none;
+	}
+
+	.page-header__main-menu {
+		width: auto;
+
+		order: 2;
+	}
+
+	.page-header__logo {
+		flex-grow: 4;
+		order: 1;
+
+		text-align: left;
+	}
+
+	.page-header__cart {
+		order: 3;
+	}
+
+	.main-menu__list {
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+
+		
+		margin: 0;
+		padding: 0;
+
+		font-size: 16px;
+	}
+
+	.main-menu__item {
+		padding: 10px 15px;
+
+		list-style: none;
+
+		cursor: pointer;
+	}
+
+	.main-menu__item:hover {
+		color: #ffffff;
+
+		background-color: #b3b3b3;
+	}
+
+	.slider__inner {
+		background: #f6f3ec url(../img/slider-desktop.png) no-repeat 100% 0;
+	}
+
+	.page-content__clearence .product__item:nth-child(4) {
+		display: flex;
+	}
+
+	.brands__element:last-child,
+	.brands__element:nth-last-child(2) {
+		display: block;
+	}
+
+
+}
