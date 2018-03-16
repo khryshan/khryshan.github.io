@@ -1,0 +1,76 @@
+.todo-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.item__block {
+	display: flex;
+	flex-direction: row;
+
+	margin-bottom: 15px;
+}
+
+.item__check {
+	display: none;
+}
+
+.item__check + label:before {
+  content: "\2713";
+  color: transparent;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  font-size: 20px;    
+  line-height: 22px;
+  margin: -5px 5px 0 0;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  transition: color ease .2s;
+  cursor: pointer;
+}
+
+.item__check:checked + label:before {
+    color: #000;
+}
+
+.item__task {
+	flex-grow: 1;
+
+	padding: 10px;
+
+	color: #000000;
+	font-size: 20px;
+	font-family: 'Roboto Condensed', 'Arial', sans-serif;
+	font-weight: 300;
+
+	border-bottom: 1px solid #cccccc;	
+}
+
+.item__btn-delete,
+.item__btn-edit {
+	flex-grow: 0;
+
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+.item__btn-edit,
+.item__btn-del {
+	margin: 0 10px;
+}
+
+.item__btn-delete:hover,
+.btn-del:hover,
+.item__btn-edit:hover,
+.btn-edit:hover {
+	transform: scale(1.1);
+}
+

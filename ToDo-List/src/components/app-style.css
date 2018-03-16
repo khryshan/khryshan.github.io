@@ -1,0 +1,27 @@
+.app__main-block {
+	display: flex;
+  justify-content: center;
+
+	margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+}
+
+.app__header {
+	margin: 0;
+	margin-bottom: 40px;
+	padding-top: 10px;
+
+	text-align: right;
+	font-size: 80px;
+	font-family: 'Arial', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: -3px;
+	line-height: 1.0;
+}
+
+.app__header span {
+	display: block;
+}
